@@ -1,0 +1,480 @@
+nav .small-width{
+  display: none;
+}
+
+
+@media only screen and (max-width: 1120px) {
+  .map .map-container .col-right h2{
+    font-size: 30px;
+    font-weight: medium;
+
+  }
+
+  .map .map-container .col-right  p{
+    font-size: 14px;
+  }
+
+  .map .map-container .col-right .description img{
+
+    height: 60px;
+    width: 60px;
+  }
+
+  .map .map-container .col-right .description p{
+    font-size: 12px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1081px){
+  
+  footer .footer-container .col1 {
+    width: 400px;
+    
+  }
+  nav ul li a{
+    font-size: 14px;
+    
+  }
+
+  .reason-container .left-col h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+    
+  footer .footer-container .col1 p{
+    width: 400px;
+    height: 180px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  footer .footer-container .col1{
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    height: 180px;
+  }
+
+  footer  .footer-container .col h2{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    
+  }
+  footer  .footer-container ul li {
+    font-size: 14px;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 970px){
+
+ 
+  .map .map-container .col-right h2{
+    font-size: 24px;
+  
+    
+  }
+
+  .map .map-container .col-right p{
+    width: 400px;
+  }
+    .map .map-container .col-right h3{
+      font-size: 14px;
+  }
+
+  .map .map-container .col-right .description img{
+    width: 50px;
+    height: 50px;
+  }
+  .map .map-container .col-right .description p{
+    font-size: 12px;
+    width: 307px;
+  }
+
+
+  .reason-container .container {
+    display: flex;
+    flex-flow: column;
+    row-gap: 450px;
+  
+  }
+  .reason-container .left-col{
+    width: 100%;
+  }
+  .reason-container .left-col .sub-container {
+    display: flex;
+    flex-flow: row;
+    column-gap: 30px;
+  }
+  
+  
+  .reason-container .right-col .glass{
+    border-radius: 50px;
+    border: 1px solid #ffffff3d;
+    background: url(./images/glass.png);
+    width: 300px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 0;
+
+  }
+
+  .reason-container .right-col .glass .content{
+    padding: 30px;
+  }
+
+  .reason-container .right-col .glass .data h3{
+    font-size: 14px;
+  }
+  .reason-container .right-col .glass .data p {
+    font-weight: normal;
+    padding-right: 60px;
+  }
+
+  .reason-container .right-col .glass h2{
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .reason-container .right-col .glass img{
+    height: 30px;
+    width: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 853px){
+  .map-container{
+    display: flex;
+    flex-flow: column;
+  }
+
+  .map .map-container .col-left{
+    position: relative;
+    width: 100%;
+  
+  }
+
+  .map .map-container .col-left .map-layer{
+      position: absolute;
+      top: 28px;
+      left: 8%;
+
+  }
+
+  nav ul {
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+  }
+
+  .map .map-container .col-left img{
+      width: 99%;
+      
+  }
+  .map .map-container .col-right {
+      width: 50%;
+      padding: auto 6%;
+      display: flex;
+      flex-flow: column;
+  }
+  .map .map-container .col-right h2{
+      font-size: 36px;
+      font-weight: medium;
+      width: 500px;
+      
+  }
+
+  .map .map-container .col-right h3{
+      font-size: 18px;
+  }
+
+
+
+  .market-data-container .data-chart .data-col .first-row {
+  font-size: 14px;
+    
+  }
+
+  .market-data-container .data-chart .data-col{
+    align-content: center;
+  }
+
+  .market-data-container .data-chart .data-col .data .shot-name {
+    display: none;
+  }
+  nav ul li a{
+    font-size: 14px;
+    
+  }
+
+  nav{ 
+    height: 70px;
+  }
+
+  footer  .footer-container .col h2{
+    font-size: 14px;
+  }
+
+  footer  .footer-container ul li a{
+    font-size: 12px;
+  }
+  footer  .footer-container ul{
+    display: flex;
+    flex-flow: column;
+    row-gap: 21px;
+  }
+
+  nav .small-width{
+    display: block;
+    font-size: 25px;
+  }
+
+  .header-container nav ul{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    background: #00092A;
+    color: white;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul .small-width{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  nav img{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 688px){
+
+
+  footer  .footer-container {
+    row-gap: 200px;
+  }
+  footer  .footer-container .footer-row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+  }
+  
+.market-data-container .data-description{
+  font-size: 12px;
+}
+  
+.reason-container .left-col .info p{
+  font-size: 12px;
+
+}
+
+.map .map-container .col-right h2{
+  font-size: 16px;
+  width: 250px;
+}
+.map .map-container .col-right p {
+  font-size: 12px;
+}
+.reason-container .right-col{
+  font-size: 12px;
+}
+  .reason-container .right-col .glass {
+    left: 30%;
+  }
+  .market-data-container .data-chart .data-col .data{
+    font-size: 12px;
+  }
+  
+  .market-data-container .data-chart .table-head{
+    font-size: 14px;
+
+  }
+}
+
+@media only screen and (max-width: 591px){
+  footer .footer-container .footer-row .col1 {
+    width: 0;
+
+  }
+
+  footer .footer-container .col1 p{
+    font-size: 12px;
+  }
+  .market-data-container .data-chart .data-col .data .nam{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 591px){
+  .market-data-container .data-chart .data-col .data {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+  .market-data-container .data-chart .table-head {
+    font-size: 12px;
+
+
+  } 
+
+  .market-data-container .data-description {
+    font-size: 10px;
+}
+
+.market-data-container .data-chart .data-col  img{
+  transform: scale(0.5);
+  
+}
+
+
+.map .map-container .col-right p{
+  font-size: 10px;
+  width: 240px;
+}
+
+.map-container {
+  row-gap: 30px;
+}
+.map .map-container .col-right .description p{
+  font-size: 10px;
+  width: 202px;
+}
+
+.map .map-container .col-right .description img{
+  height: 40x;
+  width: 40px;
+}
+
+.map .map-container .col-right h3 {
+  font-size: 12px;
+}
+
+.reason-container .left-col .info p {
+  font-size: 10px;
+}
+
+.reason-container .left-col .info h3 {
+  font-size: 12px;
+}
+
+.reason-container .left-col h2 {
+  font-size: 14px;
+}
+
+
+
+footer .footer-container .footer-row {
+  row-gap: 95px;
+}
+
+footer .copyright p {
+  width: 181px;
+  font-size: 8px;
+}
+
+footer .footer-container ul li a {
+  font-size: 10px;
+}
+
+footer .footer-container .col h2 {
+  font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 445px){
+  footer .footer-container .col1 p{
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 390px){
+  .reason-container .left-col .sub-container {
+    column-gap: 1px;
+  }
+
+  .reason-container .right-col .glass {
+    width: 200px;
+    height: 282px
+  }
+
+  .reason-container .right-col .glass .data {
+    font-size: 10px;
+  }
+
+  .reason-container .right-col .glass .data h3{
+    font-size: 10px;
+  }
+
+  .reason-container .right-col .glass .content {
+    row-gap: 9px;
+  }
+
+  .reason-container .right-col .glass img{
+    height: 20px;
+    width: 20px;
+  }
+
+  .reason-container .right-col .glass h2{
+    font-size: 11px;
+  } 
+
+  .reason-container .right-col .glass .data p {
+    padding-right: 1px;
+}
+
+footer .footer-container .col1 img {
+  width: 205px;
+  height: 277px;
+}
+
+.reason-container .container {
+  row-gap: 334px;
+}
+
+.market-data-container .data-chart .table-head {
+  font-size: 10px;
+}
+
+.market-data-container .data-chart input {
+  height: 30px;
+  width: 120px;
+  margin-left: calc(50% - 60px);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+
+}
+
+.market-data-container .data-chart .table-head {
+  font-size: 8px;
+}
+
+.market-data-container .data-chart .data-col .data {
+  font-size: 7px;
+  padding-left: 0px;
+}
+
+
+}
+

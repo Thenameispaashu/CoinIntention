@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+/* -------Header CSS start from here----- */
+header{
+    width: 100%;
+    background-color: #0A1939;  
+    padding: 10px 8%;
+}
+nav{ 
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;  
+    font-size: 15px; 
+ 
+}
+nav img{
+    width: 25%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px; 
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px; 
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ------main css starts here------ */
+main{
+    width: 100%;
+    
+}
+.market-data-container{
+    padding: 10px 8%;
+    background-color: #041334;
+    color: white;
+ 
+}
+
+
+
+.market-data-container .data-description{
+    
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    padding: 20px 0;
+}
+
+.market-data-container .data-chart{
+    height: auto;
+    width: 100%;
+    
+}
+
+.market-data-container .data-chart table{
+    height: 750px;
+    width: 95%;
+   
+}
+
+.market-data-container .data-chart .data-col{
+   
+    width: calc(100% / 5);
+    
+}
+
+.market-data-container .data-chart .data-col .data{
+    background-color: #041334;
+    align-items: center;
+    vertical-align: middle;
+    height: 70px;
+
+    
+}
+
+.profit-number{
+    color: #14FF00;
+}
+
+.loss-number{
+    color: #FF0000;
+}
+.market-data-container .data-chart .data-col .data .shot-name{
+    color: #858585;
+    font-size: 16px;
+}
+
+.market-data-container .data-chart .data-col .first-row{
+
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  column-gap: 19px;
+
+}
+
+.market-data-container .data-chart input{
+    height: 60px;
+    width: 200px;
+    margin-left:  calc(50% - 150px);
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 24px;
+    background: linear-gradient(#3DD8EE, #0997E8);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* map section start here  */
+
+.map{
+    width: 100%;  
+    height: 100%;   
+    background-color: #00092A;
+    padding: 50px 8%;
+}
+
+.map .map-container{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.map .map-container .col-left{
+    position: relative;
+    width: 50%;
+  
+}
+
+.map .map-container .col-left .map-layer{
+    position: absolute;
+    top: 28px;
+    left: 8%;
+
+}
+
+.map .map-container .col-left img{
+    width: 99%;
+    
+}
+.map .map-container .col-right {
+    width: 50%;
+    padding: auto 6%;
+    display: flex;
+    flex-flow: column;
+}
+.map .map-container .col-right h2{
+    font-size: 36px;
+    font-weight: medium;
+    
+}
+
+.map .map-container .col-right h3{
+    font-size: 18px;
+}
+
+.map .map-container .col-right .description{
+    display: flex;
+    flex-flow: row;
+    column-gap: 27px;
+    padding: 10px;
+    padding-left: 0;
+}
+.map .map-container .col-right .description p{
+    font-size: 16px;
+}
+
+/* reason container css starts from here */
+.reason-container{
+    width: 100%;
+}
+.reason-container .container{
+    background-color: #041334;
+    color: white;
+    padding: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.reason-container .left-col{
+    width: 48%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 70px;
+}
+.reason-container .left-col .sub-container{
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+}
+
+.reason-container .left-col .info{
+    display: flex;
+    flex-flow: row;
+    column-gap: 15px;
+    
+}
+
+.reason-container .left-col h2{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+.reason-container .left-col .info h3 {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.reason-container .left-col .info p {
+    font-size: 16px;
+}
+
+.reason-container .right-col{
+    position: relative;
+    width: 50%;
+    overflow-y: unset;
+}
+
+.reason-container .right-col .img{
+    transform: scale(0.8);
+} 
+ 
+
+.reason-container .right-col .glass{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+.reason-container .right-col .glass {
+    background: url(./images/glass.png); 
+    width: 365px;
+    height: 532px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.reason-container .right-col .glass .content{
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    padding: 38px;
+}
+
+.reason-container .right-col .glass .data{
+    display: flex;
+    flex-flow: row;
+    column-gap: 20px;
+}
+
+.reason-container .right-col .glass .data h3{
+    font-size: 18px;
+}
+.reason-container .right-col .glass .data p {
+    font-weight: normal;
+    padding-right: 60px;
+}
+
+.reason-container .right-col .glass h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.reason-container .right-col .glass .data{
+    width: 100%;
+    align-items: center;
+}
+
+.reason-container .right-col .glass img{
+    height: 60px;
+    width: 60px;
+}
+
+/* footer css starts from here  */
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #00092A;
+}
+
+footer .footer-container{
+    
+    display: flex;
+    flex-flow: column;
+    row-gap: 70px;
+    height: 100%;
+    width: 100%;
+    padding: 70px 8% 0;
+}
+
+footer  .footer-container .footer-row{
+    
+    width: 100%; 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+}
+
+footer  .footer-container .footer-row .right-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer  .footer-container ul li {
+    list-style: none;
+}
+
+footer  .footer-container ul{
+    display: flex;
+    flex-flow: column;
+    row-gap: 21px;
+}
+footer  .footer-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer-container .col1{
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    width: 602px;
+    height: 180px;
+}
+footer .footer-container .col1 img{
+    height: 40px;
+    width: 301px;
+
+}
+footer .footer-container .col1 p{
+    width: 602px;
+    height: 180px;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer .footer-container .col{
+    width: 50%;
+    height: 275px;
+    padding-left: 2%;
+   
+}
+
+footer  .footer-container .col h2{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    
+}
+
+footer .copyright{
+    margin: 0 auto;
+    color: white;
+    
+     
+}
+footer .copyright p{
+    width: 400px;
+}
+
+nav ul li{
+    padding: 0;
+}
